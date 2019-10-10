@@ -1,0 +1,17 @@
+Package: package2script
+Type: Package
+Title: Convert R package to a single R script
+Version: 1.3.2
+Date: 2019-07-26
+Authors@R: c(person(given="Anne Helby", family="Petersen", email="ahpe@sund.ku.dk", role=c("aut", "cre")))
+Description: Auto generate a single script containing all the R source code for an R package. 
+    This is useful when working on systems where the user does not have permission to install packages. 
+URL: https://github.com/annennenne/package2script
+BugReports: https://github.com/annennenne/package2script/issues    
+Imports: desc
+Encoding: UTF-8
+LazyData: true
+ByteCompile: true
+License: GPL-2
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 6.1.1
